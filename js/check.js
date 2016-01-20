@@ -13,10 +13,10 @@ function getMessage(a, b) {
     return 'Переданное SVG-изображение содержит ' + a + ' объектов и ' + b * 4 + ' аттрибутов';
   }
 
-  if ( typeof a === 'object') {
+  if ( Array.isArray(a) ) {
     var i = 0, sum = 0;
 
-    if ( typeof b === 'object') {
+    if ( Array.isArray(b) ) {
       for ( i = 0; i < a.length; i++) {
         sum = sum + (a[i] * b[i]);
       }
