@@ -4,7 +4,7 @@
 [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Попов](https://htmlacademy.ru/profile/id42761).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Ёркина](https://htmlacademy.ru/profile/id50014).
 
 ### Немного о себе
 
